@@ -7,24 +7,32 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 4949189536
-  numberOfFiles: 699
-  numberOfSubjects: 1398
+  numberOfBytes: 6602993464
+  numberOfFiles: 728
+  numberOfSubjects: 728
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7227
     name: Common fruit fly
     schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/ncbitaxon_28584
+    schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
+  - Position
+  - SpatialSeries
 citation: Vijayan, Vikram; Maimon, Gaby (2022) Tracking of Drosophila during egg-laying
   decisions (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000212/draft
 contributor:

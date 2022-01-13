@@ -30,9 +30,9 @@ assetsSummary:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_28584
     schemaKey: SpeciesType
   variableMeasured:
-  - Position
-  - SpatialSeries
   - ProcessingModule
+  - SpatialSeries
+  - Position
 citation: Vijayan, Vikram; Maimon, Gaby (2022) Tracking of Drosophila during egg-laying
   decisions (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000212/draft
 contributor:

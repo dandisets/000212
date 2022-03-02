@@ -15,26 +15,28 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 6602993464
-  numberOfFiles: 728
-  numberOfSubjects: 728
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 7545956480
+  numberOfFiles: 844
+  numberOfSubjects: 844
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7227
     name: Drosophila melanogaster - Fruit fly
     schemaKey: SpeciesType
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_28584
+    name: Drosophila suzukii
     schemaKey: SpeciesType
   variableMeasured:
+  - Position
   - ProcessingModule
   - SpatialSeries
-  - Position
-citation: Vijayan, Vikram; Maimon, Gaby (2022) Tracking of Drosophila during egg-laying
-  decisions (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000212/draft
+citation: Vijayan, Vikram; Maimon, Gaby;  National Institutes of Health (2022) Tracking
+  of Drosophila during egg-laying decisions (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000212/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/0420db125
@@ -70,13 +72,47 @@ contributor:
   - dcite:Conceptualization
   - dcite:Supervision
   schemaKey: Person
+- awardNumber: R01NS121904
+  contactPoint: []
+  identifier: https://ror.org/01s5ya894
+  includeInCitation: true
+  name: ' National Institutes of Health'
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  includeInCitation: false
+  name: Howard Hughes Medical Institute
+  roleName:
+  - dcite:Affiliation
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  includeInCitation: false
+  name: Leon Levy Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  includeInCitation: false
+  name: Kavli Neural Systems Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  includeInCitation: false
+  name: The Rockefeller University
+  roleName:
+  - dcite:Affiliation
+  schemaKey: Organization
 dateCreated: '2021-12-31T18:54:00.660372+00:00'
 description: 'Dataset on the egg-laying behavior of flies used to understand how flies
   make egg-laying decisions. Each NWB file contains time series data from an individual
   fly: the x-y position of the fly, egg-deposition moments of the fly, and sucrose
   concentration underneath the fly. A variety of fly genotypes and a variety of environments
-  (egg-laying chambers) were used. Data are described in Vijayan et al bioRxiv 2021:
-  “An internal expectation guides Drosophila egg-laying decisions” (https://www.biorxiv.org/content/10.1101/2021.09.30.462671v1).
+  (egg-laying chambers) were used. Data and methods are described in "A rise-to-threshold
+  signal for a relative value deliberation" (https://www.biorxiv.org/content/10.1101/2021.09.23.461548v1)
+  and “An internal expectation guides Drosophila egg-laying decisions” (https://www.biorxiv.org/content/10.1101/2021.09.30.462671v1).
   Please contact Vikram Vijayan and/or Gaby Maimon for more information including
   different download options and different raw/processed data formats.'
 ethicsApproval: []
@@ -95,11 +131,23 @@ manifestLocation:
 name: Tracking of Drosophila during egg-laying decisions
 protocol:
 - https://doi.org/10.1101/2021.09.30.462671
-relatedResource: []
+- https://doi.org/10.1101/2021.09.23.461548
+relatedResource:
+- identifier: https://doi.org/10.1101/2021.09.23.461548
+  name: A rise-to-threshold signal for a relative value deliberation
+  relation: dcite:Describes
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2021.09.23.461548v1
+- identifier: https://doi.org/10.1101/2021.09.30.462671
+  name: An internal expectation guides Drosophila egg-laying decisions
+  relation: dcite:Describes
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2021.09.30.462671v1
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
-studyTarget: []
+studyTarget:
+- To understand how flies make egg-laying decisions
 url: https://dandiarchive.org/dandiset/000212/draft
 version: draft
 wasGeneratedBy: []

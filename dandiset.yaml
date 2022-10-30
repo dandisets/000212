@@ -112,7 +112,7 @@ description: 'Dataset on the egg-laying behavior of flies used to understand how
   concentration underneath the fly. A variety of fly genotypes and a variety of environments
   (egg-laying chambers) were used. Data and methods are described in "A rise-to-threshold
   signal for a relative value deliberation" (https://www.biorxiv.org/content/10.1101/2021.09.23.461548v1)
-  and “An internal expectation guides Drosophila egg-laying decisions” (https://www.biorxiv.org/content/10.1101/2021.09.30.462671v1).
+  and “An internal expectation guides Drosophila egg-laying decisions” (https://doi.org/10.1126/sciadv.abn3852).
   Please contact Vikram Vijayan and/or Gaby Maimon for more information including
   different download options and different raw/processed data formats.'
 ethicsApproval: []
@@ -132,6 +132,7 @@ name: Tracking of Drosophila during egg-laying decisions
 protocol:
 - https://doi.org/10.1101/2021.09.30.462671
 - https://doi.org/10.1101/2021.09.23.461548
+- https://doi.org/10.1126/sciadv.abn3852
 relatedResource:
 - identifier: https://doi.org/10.1101/2021.09.23.461548
   name: A rise-to-threshold signal for a relative value deliberation
@@ -143,6 +144,11 @@ relatedResource:
   relation: dcite:Describes
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2021.09.30.462671v1
+- identifier: https://doi.org/10.1126/sciadv.abn3852
+  name: An internal expectation guides Drosophila egg-laying decisions
+  relation: dcite:Describes
+  schemaKey: Resource
+  url: https://www.science.org/doi/10.1126/sciadv.abn3852
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0

@@ -34,9 +34,8 @@ assetsSummary:
   - Position
   - ProcessingModule
   - SpatialSeries
-citation: Vijayan, Vikram; Maimon, Gaby;  National Institutes of Health (2022) Tracking
-  of Drosophila during egg-laying decisions (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000212/draft
+citation: Vijayan, Vikram; Maimon, Gaby (2023) Tracking of Drosophila during egg-laying
+  decisions (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000212/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/0420db125
@@ -75,7 +74,7 @@ contributor:
 - awardNumber: R01NS121904
   contactPoint: []
   identifier: https://ror.org/01s5ya894
-  includeInCitation: true
+  includeInCitation: false
   name: ' National Institutes of Health'
   roleName:
   - dcite:Funder
